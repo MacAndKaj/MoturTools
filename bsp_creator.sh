@@ -48,7 +48,7 @@ cd poky-dunfell
 
 git clone -b dunfell git://git.openembedded.org/meta-openembedded
 git clone -b dunfell git://git.yoctoproject.org/meta-raspberrypi
-git clone -b dunfell git@github.com:ros/meta-ros build
+# git clone -b dunfell git@github.com:ros/meta-ros build
 
 cd ${ROOT_DIR}
 
@@ -59,11 +59,11 @@ bitbake-layers add-layer ../poky-dunfell/meta-openembedded/meta-oe
 bitbake-layers add-layer ../poky-dunfell/meta-openembedded/meta-python
 bitbake-layers add-layer ../poky-dunfell/meta-openembedded/meta-networking
 bitbake-layers add-layer ../poky-dunfell/meta-raspberrypi
-bitbake-layers add-layer ../poky-dunfell/meta-ros/ros-backports-gatesgarth-layer
-bitbake-layers add-layer ../poky-dunfell/meta-ros/ros-backports-hardknott-layer
-bitbake-layers add-layer ../poky-dunfell/meta-ros/meta-ros-common
-bitbake-layers add-layer ../poky-dunfell/meta-ros/meta-ros2
-bitbake-layers add-layer ../poky-dunfell/meta-ros/meta-ros2-galactic
+# bitbake-layers add-layer ../poky-dunfell/meta-ros/ros-backports-gatesgarth-layer
+# bitbake-layers add-layer ../poky-dunfell/meta-ros/ros-backports-hardknott-layer
+# bitbake-layers add-layer ../poky-dunfell/meta-ros/meta-ros-common
+# bitbake-layers add-layer ../poky-dunfell/meta-ros/meta-ros2
+# bitbake-layers add-layer ../poky-dunfell/meta-ros/meta-ros2-galactic
 
 
 
